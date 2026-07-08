@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Moongirl</title>
+  </head>
+  <body>
+    <h1 id="heading">Moongirl Dressup</h1>
+    <div id="box">
+      <div id="backdrop">
+        <div id="face"></div>
+        <div id="hat"></div>
+        <div id="hair"></div>
+        <div id="girl"></div>
+        <div id="shoes"></div>
+        <div id="dress"></div>
+        <div class="cloud c1"></div>
+        <div class="cloud c2"></div>
+    <div id="speechBubble">
+        Hello! 
+    </div>
+      </div>
+      <div class="buttonBox">
+        <button id="nexthair" onclick="nexthair()">hair➡</button>
+        <button id="nextdress" onclick="nextdress()">dress➡</button>
+        <button id="nextshoes" onclick="nextshoes()">shoes➡</button>
+        <button id="nexthat" onclick="nexthat()">accessory➡</button>
+        <button id="nextface" onclick="nextface()">face➡</button>
+        <button onclick="downloadImage()">Download</button>
+      </div>
+ 
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    
+    <script src="./main.js"></script>
+  </body>
+</html>
